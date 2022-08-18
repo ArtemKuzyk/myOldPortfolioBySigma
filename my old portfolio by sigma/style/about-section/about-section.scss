@@ -1,0 +1,66 @@
+.about-section{
+    background-color: #e6e1d0;
+}
+
+.extended-information-colomns{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .extended-information-colomns__col{
+        margin: auto;
+    }
+    .extended-information-colomns__circle_color_red{
+        width: 18.75em;
+        height: 18.75em;
+        border-radius: 50%;
+        background-color: #d45244;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.5em solid #f5eee3;
+        box-shadow: 0 0 0 0.5em #d45244;
+        margin: auto;
+        .extended-information-colomns__circle-image{
+            width: 10.625em;
+            height: 8.3125em;
+            align-items: center;
+            margin: 0 !important;
+        }
+    }
+    .extended-information-colomns__header{
+        font-size: 3.375em;
+        color: var(--main-textcolor);
+        font-family: "Bazar";
+        text-align: center;
+    }
+    .extended-information-colomns__header-specification{
+        font-size: 1.75em;
+        color: var(--main-textcolor);
+        font-weight: 400;
+        font-family: "Roboto Slab";
+        text-align: center;
+    }
+    .extended-information-colomns__text-content{
+        max-width: 420px;
+        font-size: 1.75em;
+        line-height: 3.125em;
+        color: var(--main-textcolor);
+        font-weight: 400;
+        font-family: "Roboto Slab";
+        margin-bottom: 2.5em;
+        .extended-information-colomns__text-content_decoration_underline{
+            text-decoration: underline;
+        }
+        .extended-information-colomns__text-content_color_gray{
+            color: #808080;
+        }
+    }
+}
+
+
+
+
+
+
+
+

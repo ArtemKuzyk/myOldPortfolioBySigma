@@ -1,0 +1,54 @@
+.start-animation{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #54d886;
+}
+.start-animation__container{
+    width: 16rem;
+    height: 16rem;
+    margin: 25px;
+    position: relative;
+}
+.start-animation__item_square{
+    width: 0;
+    height: 0;
+    background-color: #00000000;
+    border: 0.5rem solid #000;
+    animation-name: diving;
+    animation-duration: 5s;
+    position: absolute;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    top: 8rem; 
+    left: 8rem;
+}
+.start-animation__item_square-delay_two-second{
+    animation-delay: 1s;
+}
+.start-animation__item_square-delay_three-second{
+    animation-delay: 2s;
+}
+.start-animation__item_square-delay_four-second{ 
+    animation-delay: 3s;
+}
+.start-animation__item_square-delay_five-second{
+    animation-delay: 4s;
+}
+@keyframes diving {
+    0% {
+        width: 0px;
+        height: 0px;
+        top: 8rem; 
+        left: 8rem;
+    }
+    100% {
+        width: 16rem;
+        height: 16rem;
+        top: 0; 
+        left: 0;
+    }
+}
