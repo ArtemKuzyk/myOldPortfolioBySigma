@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/fonts/Roboto.css">
+    <link rel="stylesheet" href="style/fonts/fonts.css">
+    <link rel="stylesheet" href="style/common_style_settings/common_styles.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/about-section/about-section.css">
+    <link rel="stylesheet" href="style/title/title.css">
+    <link rel="stylesheet" href="style/portfolio-section/portfolio-section.css">
+    <link rel="stylesheet" href="style/my-blogs-section/my-blogs-section.css">
+    <link rel="stylesheet" href="style/contact-me-section/contact-me-section.css">
+    <link rel="stylesheet" href="style/navigation-menu/navigation-menu.css">
+    <link rel="stylesheet" href="style/startAnimatiom.css">
+    <link rel="stylesheet" href="style/activeQuestion.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navigation-menu">
+            <a href="#about-me" class="navigation-menu__item">ABOUT ME</a>
+            <a href="#portfolio" class="navigation-menu__item">PORTFOLIO</a>
+            <div class="navigatoin-menu__logo">
+                JD
+            </div>
+            <a href="#my-blog" class="navigation-menu__item">MY BLOG</a>
+            <a href="#contact-me" class="navigation-menu__item">CONTACT ME</a>
+            <a href="#" class="dark-light-icon"></a>
+        </nav>
+
+        <div class="progress-bar">
+            <div class="progress-bar__line"></div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="content">
+            <section class="slider-section section-common-settings">
+                <article class="header">
+                    <h1 class="heade__section-name">RETRO</h1>
+                    <div class="style-element">
+                        <div class="style-element__rectangle-one">
+                            <p>OLD STYLE PORTFOLIO</p>
+                        </div>
+                        <div class="style-element__rectangle-two"></div>
+                        <div class="style-element__rectangle-three"></div>
+                        <div class="style-element__rectangle-four"></div>
+                        <div class="style-element__rectangle-five"></div>
+                        
+                    </div>
+                </article>
+                <article class="slider">
+                    <div class="slider__image-placeholder">
+                        <img src="photo/my-hobby-1.jpg" alt="no image" class="photoSlide" style="display: block;">
+                        <img src="photo/my-hobby-2.jpg" alt="no image" class="photoSlide" style="display: none;">
+                        <img src="photo/my-hobby-3.jpg" alt="no image" class="photoSlide" style="display: none;">
+                        <img src="photo/my-hobby-4.jpg" alt="no image" class="photoSlide" style="display: none;">
+                        <img src="photo/my-hobby-5.jpg" alt="no image" class="photoSlide" style="display: none;">
+                        <a class="prev" onclick="plusSlides(-1)"></a>
+                        <a class="next" onclick="plusSlides(1)"></a>
+                    </div>
+                    <h3>KODAK CAMERA</h3>
+                </article>
+                <div class="slider-section__text">
+                    <p>“HELLO, I AM JOHN DOE</p>
+                    <p>WELCOME TO RETRO, MY WONDERFUL THEME!”</p>
+                </div>
+                <a id="about-me"></a>
+            </section>
+            <section class="about-section section-common-settings">
+                <div class="title">
+                    <h2 class="title__header">ABOUT ME</h2>
+                    <div class="title__style-element">
+                        <!-- <hr class="line"><p>×××</p><hr class="line"> -->
+                        <hr class="separator separator_margin"><p>×××</p><hr class="separator separator_margin">
+                    </div>  
+                    <h4 class="title__short-info">I AM A GRAPHIC DESIGNER FROM BALTIMORE</h4>
+                </div>
+                <div class="extended-information-colomns">
+                    <div class="extended-information-colomns__col">
+                        <div class="extended-information-colomns__circle_color_red">
+                            <img src="style/about-section/tv.png" alt="no image" class="extended-information-colomns__circle-image">
+                        </div>
+                        <h3 class="extended-information-colomns__header">MOVIES</h3>
+                        <h5 class="extended-information-colomns__header-specification">WHAT I WATCH</h5>
+                        <hr class="separator">
+                        <p class="extended-information-colomns__text-content">Clutter is honest! I do believe that has to the users selfexpre
+                            Lorem ipsum dolor sit amet <i>adipisicing</i> adipisicing elit. Harum, laborum!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, id!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, aut.
+                            Lorem ipsum dolor sit amet consectetur <b>consectetur</b> elit. Incidunt, corrupti!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quibusdam?
+                        </p>
+                    </div>
+                    <div class="extended-information-colomns__col">
+                        <div class="extended-information-colomns__circle_color_red">
+                            <img src="style/about-section/vinyl.png" alt="no image" class="extended-information-colomns__circle-image">
+                        </div>
+                        <h3 class="extended-information-colomns__header">MUSIC</h3>
+                        <h5 class="extended-information-colomns__header-specification">WHAT I LISTEN</h5>
+                        <hr class="separator">
+                        <p class="extended-information-colomns__text-content">Good design. The content, you'll love powerpoint should be diff
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, laborum!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, id!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, aut.
+                            <span class="extended-information-colomns__text-content_decoration_underline">Lorem</span>  ipsum dolor sit amet consectetur adipisicing elit. Incidunt, corrupti!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quibusdam?
+                        </p>
+                    </div>
+                    <div class="extended-information-colomns__col">
+                        <div class="extended-information-colomns__circle_color_red">
+                            <img src="style/about-section/t-shirt.png" alt="no image" class="extended-information-colomns__circle-image">
+                        </div>
+                        <h3 class="extended-information-colomns__header">CLOTHES</h3>
+                        <h5 class="extended-information-colomns__header-specification">WHAT I WEAR</h5>
+                        <hr class="separator">
+                        <p class="extended-information-colomns__text-content">Very honest approach and product. The other product that change
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. , laborum!
+                            Lorem ipsum dolor, sit amet consectetur <b>Harum</b> adipisicing elit. Nam, id!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, aut.
+                            Lorem ipsum dolor sit amet  <i>consectetur</i> adipisicing elit. Incidunt, corrupti!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quibusdam?
+                        </p>
+                    </div>
+                    <div class="extended-information-colomns__col">
+                        <div class="extended-information-colomns__circle_color_red">
+                            <img src="style/about-section/food.png" alt="no image" class="extended-information-colomns__circle-image">
+                        </div>
+                        <h3 class="extended-information-colomns__header">FOOD</h3>
+                        <h5 class="extended-information-colomns__header-specification">WHAT I EAT</h5>
+                        <hr class="separator">
+                        <p class="extended-information-colomns__text-content">Simplicity. Its context. From so many different levels. There's
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, laborum!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, id!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, aut.
+                            Lorem ipsum dolor sit amet consectetur <span class="extended-information-colomns__text-content_decoration_underline extended-information-colomns__text-content_color_gray"><b>adipisicing elit</b></span> . Incidunt, corrupti!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quibusdam?
+                        </p>
+                    </div>
+                </div>
+                <a id="portfolio" class="anchor-link"></a>
+            </section>
+            <section class="portfolio-section section-common-settings">
+                <div class="title">
+                    <h2 class="title__header">PORTFOLIO</h2>
+                    <div class="title__style-element">
+                        <hr class="separator separator_margin"><p>×××</p><hr class="separator separator_margin">
+                    </div>  
+                    <h4 class="title__short-info">SIMPLICITY IS THE ULTIMATE SOPHISTICATION</h4>
+                </div>
+                <div class="portfolio-content">
+                    <div class="filter">
+                        <p class="filter__named">Filter by</p>
+                        <button class="filter__checkbox">
+                            design
+                            <label for="design"></label>
+                            <input type="checkbox" name="design" id="design" class="filter__link">
+                        </button>
+                        <button class="filter__checkbox">
+                            logo
+                            <label for="logo"></label>
+                            <input type="checkbox" name="logo" id="logo" class="filter__link">
+                        </button>
+                        <button class="filter__checkbox">
+                            photography
+                            <label for="photography"></label>
+                            <input type="checkbox" name="photography" id="photography" class="filter__link">
+                        </button>
+                        <button class="filter__checkbox">
+                            poster
+                            <label for="poster"></label>
+                            <input type="checkbox" name="poster" id="poster" class="filter__link">
+                        </button>
+                        <button class="filter__checkbox">
+                            resourses
+                            <label for="resourses"></label>
+                            <input type="checkbox" name="resourses" id="resourses" class="filter__link">
+                        </button>
+                        <button class="filter__checkbox">
+                            retro
+                            <label for="retro"></label>
+                            <input type="checkbox" name="retro" id="retro" class="filter__link">
+                        </button>
+                        <button class="filter__checkbox">
+                            t-shirt
+                            <label for="t-shirt"></label>
+                            <input type="checkbox" name="t-shirt" id="t-shirt" class="filter__link">
+                        </button>
+                        <button class="filter__checkbox">
+                            videos
+                            <label for="videos"></label>
+                            <input type="checkbox" name="videos" id="videos" class="filter__link">
+                        </button>
+                        <button class="filter__checkbox" onclick="filterSelection('all')">
+                            clear all filter
+                            <label for="clear-all-filter"></label>
+                            <input type="checkbox" name="clear-all-filter" id="clear-all-filter" class="filter__link">
+                        </button>
+                    </div>
+                    
+                    <div class="projects">
+                        <div class="item design">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_photo item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">GALLERIES ARE FUNNY</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 26.04.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>
+                        <div class="item logo">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_tv item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">GALLERIES ARE FUNNY</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 24.04.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>
+                        <div class="item resourses">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_sound item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">A VIMEO REEL</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create page',
+                                date: 20.04.2022,
+                                tech: 'html, css',
+                                price: 500
+                            </p>
+                        </div>
+                        <div class="item resourses">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_note item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">LOVE FOR OLD CAMERAS</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create page',
+                                date: 24.03.2022,
+                                tech: 'html, css',
+                                price: 350
+                            </p>
+                        </div>
+                        <div class="item retro">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_tv item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">DETAILED PROJECT PAGE</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 27.03.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>
+                        <div class="item videos">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_clip item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">YOUTUBE VIDEO</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 24.06.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>
+                        <div class="item photography">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_photo item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">ANOTHER EXTERNAL LINK</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 24.06.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>
+                        <div class="item retro">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_sound item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">A LIGHTBOX IMAGE</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 27.05.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>
+                        <div class="item poster">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_clip item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">THE DARK TEMPEST</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 22.01.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>
+                        <div class="item t-shirt">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_tv item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">THE DARK TEMPEST</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 15.01.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>
+                        <!-- //8 -->
+                        <div class="item resourses">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_note item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">THE DARK TEMPEST</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 12.02.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>
+                        <div class="item poster">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_photo item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">THE DARK TEMPEST</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 13.03.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>
+                        <div class="item retro">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_sound item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">THE DARK TEMPEST</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 07.01.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>
+                        <div class="item videos">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_tv item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">THE DARK TEMPEST</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 27.02.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>
+                        <div class="item t-shirt">
+                            <div class="item__main-image"></div>
+                            <div class="item__circle_white">
+                                <div class="item__icon-image_clip item__icon-image_margin"></div>
+                            </div>
+                            <p class="item__description">THE DARK TEMPEST</p>
+                            <p class="item__description_visible_hidden">
+                                name: 'Create landing page',
+                                date: 22.03.2022,
+                                tech: 'html, css',
+                                price: 'free'
+                            </p>
+                        </div>  
+                    </div>
+                    <hr class="separator">
+                    <button class="show-all-content" onclick="filterSelection('all')">BROWSE ALL</button>
+                </div>
+                <a id="my-blog"></a>
+            </section>
+            <section class="my-blogs-section section-common-settings">
+                <div class="title">
+                    <h2 class="title__header">MY BLOG</h2>
+                    <div class="title__style-element">
+                        <!-- <hr class="line"><p>×××</p><hr class="line"> -->
+                        <hr class="separator separator_margin"><p>×××</p><hr class="separator separator_margin">
+                    </div>  
+                    <h4 class="title__short-info">NEWS FROM MY HOUSE</h4>
+                </div>
+                <div class="blog-content">
+                    <!-- <div class="blogs"> -->
+                        <article class="article">
+                            <div class="article__image"></div>
+                            <div class="article__content-block">
+                                <h2 class="article__header">The Magic Wheel</h2>
+                                <h5 class="article__content-keywords">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS</h5>
+                                <hr class="separator">
+                                <p class="article__content">
+                                    It’s not it to understand them in the objects we’re playing. Pr
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, non!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, temporibus.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, sed.
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, nulla.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, saepe.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, non!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, temporibus.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, sed.
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, nulla.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, saepe. 
+                                </p>
+                                <p class="article__responses">1 RESPONSE</p>
+                            </div>
+                        </article>
+                        <article class="article">
+                            <div class="article__image"></div>
+                            <div class="article__content-block">
+                                <h2 class="article__header">The Magic Wheel</h2>
+                                <h5 class="article__content-keywords">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS</h5>
+                                <hr class="separator">
+                                <p class="article__content">
+                                    It’s not it to understand them in the objects we’re playing. Pr
+                                </p>
+                                <p class="article__responses">1 RESPONSE</p>
+                            </div>
+                        </article>
+                        <article class="article">
+                            <div class="article__image"></div>
+                            <div class="article__content-block">
+                                <h2 class="article__header">The Magic Wheel</h2>
+                                <h5 class="article__content-keywords">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS</h5>
+                                <hr class="separator">
+                                <p class="article__content">
+                                    It’s not it to understand them in the objects we’re playing. Pr
+                                </p>
+                                <p class="article__responses">1 RESPONSE</p>
+                            </div>
+                        </article>
+                        <article class="article">
+                            <div class="article__image"></div>
+                            <div class="article__content-block">
+                                <h2 class="article__header">The Magic Wheel</h2>
+                                <h5 class="article__content-keywords">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS</h5>
+                                <hr class="separator">
+                                <p class="article__content">
+                                    It’s not it to understand them in the objects we’re playing. Pr
+                                </p>
+                                <p class="article__responses">1 RESPONSE</p>
+                            </div>
+                        </article>
+                        <article class="article">
+                            <div class="article__image"></div>
+                            <div class="article__content-block">
+                                <h2 class="article__header">The Magic Wheel</h2>
+                                <h5 class="article__content-keywords">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS</h5>
+                                <hr class="separator">
+                                <p class="article__content">
+                                    It’s not it to understand them in the objects we’re playing. Pr
+                                </p>
+                                <p class="article__responses">1 RESPONSE</p>
+                            </div>
+                        </article>
+                        <article class="article">
+                            <div class="article__image"></div>
+                            <div class="article__content-block">
+                                <h2 class="article__header">The Magic Wheel</h2>
+                                <h5 class="article__content-keywords">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS</h5>
+                                <hr class="separator">
+                                <p class="article__content">
+                                    It’s not it to understand them in the objects we’re playing. Pr
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, non!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, temporibus.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, sed.
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, nulla.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, saepe.
+                                </p>
+                                <p class="article__responses">1 RESPONSE</p>
+                            </div>
+                        </article>
+                        <article class="article">
+                            <div class="article__image"></div>
+                            <div class="article__content-block">
+                                <h2 class="article__header">The Magic Wheel</h2>
+                                <h5 class="article__content-keywords">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS</h5>
+                                <hr class="separator">
+                                <p class="article__content">
+                                    It’s not it to understand them in the objects we’re playing. Pr
+                                </p>
+                                <p class="article__responses">1 RESPONSE</p>
+                            </div>
+                        </article>
+                    <!-- </div> -->
+                    <hr class="separator">
+                    <button class="show-all-content">SHOW ALL POSTS</button>
+                </div>
+                <a id="contact-me"></a>
+            </section>
+            <section class="contact-me-section section-common-settings">
+                <div class="title">
+                    <h2 class="title__header title__text_color_light title__text_shadow-color_light">CONTACT ME</h2>
+                    <div class="title__style-element">
+                        <hr class="separator title__bacground_color_light separator_color_light separator_margin">
+                            <p class="title__text_color_light">×××</p>
+                        <hr class="separator title__bacground_color_light separator_color_light separator_margin">
+                    </div>  
+                    <h4 class="title__short-info title__text_color_light ">I'LL BE GLAD TO ANSWER YOUR QUESTIONS!</h4>
+                </div>
+                <div class="container">
+                    <form autocomplete="off">
+                        <input name="hidden" type="text" style="display:none;">
+                        <input type="text" name="Name" id="userNameInfo" placeholder="Name" required>
+                        <input type="email" name="Email" id="email" placeholder="Email address" required>
+                        <input type="text" name="Sub" id="subject" placeholder="Subject">
+                        <textarea name="Massage" id="massage" cols="30" rows="10" placeholder="Your message"></textarea>
+                        <button onclick="chekValidation()">Send Message</button>
+                    </form>
+                    <div class="footer">
+                        <h3>I AM SOCIAL</h3>
+                        <hr class="separator title__bacground_color_light separator_color_light">
+                        <div class="links">
+                            <a href="https://en.wikipedia.org/wiki/Twitter" class="twitter"></a>
+                            <a href="https://en.wikipedia.org/wiki/Google%2B" class="gplus"></a>
+                            <a href="https://en.wikipedia.org/wiki/LinkedIn" class="linkedin"></a>
+                            <a href="https://www.facebook.com/kuzyk.artem" class="facebook"></a>
+                            <a href="https://en.wikipedia.org/wiki/Pinterest" class="pinterest"></a>
+                            <div class="apiForm">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div> 
+    </main>
+    <div class="contactMeAnimation">
+        Ми скоро з вами зв'яжемося :)
+    </div>
+    <div class="start-animation">
+        <div class="start-animation__container">
+            <div class="start-animation__item_square-delay_one-second start-animation__item_square"></div>
+            <div class="start-animation__item_square-delay_two-second start-animation__item_square"></div>
+            <div class="start-animation__item_square-delay_three-second start-animation__item_square"></div>
+            <div class="start-animation__item_square-delay_four-second start-animation__item_square"></div>
+            <div class="start-animation__item_square-delay_five-second start-animation__item_square"></div>
+        </div>
+    </div>
+    <div class="activeQuestion"><p>Ви ще тут?</p></div> 
+</body>
+<script src="script/slider.js"></script>
+<script src="script/progressbar.js"></script>
+<script src="script/dark-light-theme.js"></script>
+<script src="script/filter.js"></script>
+<script src="script/formValidation.js"></script>
+<script src="script/start-animation.js"></script>
+<script src="script/disactiveTime.js"></script>
+<script src="script/weatherAPI.js"></script>
+</html>

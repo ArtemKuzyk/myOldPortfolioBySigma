@@ -1,0 +1,46 @@
+.title{
+    text-align: center;
+}
+
+.title__header{
+    font-size: 11.25rem;   
+    color: var(--title-textcolor);
+    font-family: Bazar;
+    text-align: center;
+    text-shadow: 4px 4px 0px #fcfaf7, 8px 8px 0px #484a4d;
+}
+
+.title__style-element{
+    
+    > *{
+        display: inline-block;
+    }
+    p{
+        margin: 0;
+        font-size: 2rem;
+        color: var(--other-textcolor-gray); 
+        font-weight: 400;
+        font-family: Oswald;
+        text-align: center;
+    }
+}
+
+.title__text_color_light{
+    color: #f6edd8 !important;
+}
+
+.title__bacground_color_light{
+    background-color: #f6edd8 !important;
+}
+
+.title__text_shadow-color_light{
+    text-shadow: 4px 4px 0px #484a4d, 8px 8px 0px #d4cebf;
+}
+
+.title__short-info{
+font-size: 2rem;
+color: var(--other-textcolor-gray);
+font-weight: 400;
+font-family: Oswald;
+text-align: center;
+}

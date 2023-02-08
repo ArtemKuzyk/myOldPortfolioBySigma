@@ -1,0 +1,58 @@
+.navigatoin-menu__logo {
+  background-color: #4e5052;
+  border-radius: 50%;
+  padding: 20px;
+  color: #f6edd8;
+  font-family: SeasideResortNF;
+  font-size: 11.75rem;
+  -webkit-clip-path: polygon(50% 0%, 40.83% 3.9%, 30.87% 3.81%, 23.89% 10.92%, 14.64% 14.64%, 10.92% 23.89%, 3.81% 30.87%, 3.9% 40.83%, 0% 50%, 3.9% 59.17%, 3.81% 69.13%, 10.92% 76.11%, 14.64% 85.36%, 23.89% 89.08%, 30.87% 96.19%, 40.83% 96.1%, 50% 100%, 59.17% 96.1%, 69.13% 96.19%, 76.11% 89.08%, 85.36% 85.36%, 89.08% 76.11%, 96.19% 69.13%, 96.1% 59.17%, 100% 50%, 96.1% 40.83%, 96.19% 30.87%, 89.08% 23.89%, 85.36% 14.64%, 76.11% 10.92%, 69.13% 3.81%, 59.17% 3.9%);
+          clip-path: polygon(50% 0%, 40.83% 3.9%, 30.87% 3.81%, 23.89% 10.92%, 14.64% 14.64%, 10.92% 23.89%, 3.81% 30.87%, 3.9% 40.83%, 0% 50%, 3.9% 59.17%, 3.81% 69.13%, 10.92% 76.11%, 14.64% 85.36%, 23.89% 89.08%, 30.87% 96.19%, 40.83% 96.1%, 50% 100%, 59.17% 96.1%, 69.13% 96.19%, 76.11% 89.08%, 85.36% 85.36%, 89.08% 76.11%, 96.19% 69.13%, 96.1% 59.17%, 100% 50%, 96.1% 40.83%, 96.19% 30.87%, 89.08% 23.89%, 85.36% 14.64%, 76.11% 10.92%, 69.13% 3.81%, 59.17% 3.9%);
+}
+
+header {
+  background-color: #7ac0c0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: calc(1.25rem + 5px);
+  left: 0;
+  right: 0;
+  border-top: 0.25rem dashed #808080;
+}
+header nav {
+  width: calc(100% - 1.25rem);
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navigation-menu .dark-light-icon {
+  background-image: url(../dark.png);
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.navigation-menu .navigation-menu__item {
+  color: #f9edb9;
+  font-family: Bazar;
+  font-size: 3.375rem;
+  text-decoration: none;
+  transition: background-color 1s;
+}
+.navigation-menu .navigation-menu__item:hover {
+  background-color: #4e5052;
+}
+
+.dark body header .navigation-menu .dark-light-icon {
+  background-color: #fff;
+}/*# sourceMappingURL=navigation-menu.css.map */
