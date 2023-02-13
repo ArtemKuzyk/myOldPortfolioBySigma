@@ -123,7 +123,6 @@
   transition: 0.6s ease;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .slider__image-placeholder .prev:hover, .slider__image-placeholder .next:hover {

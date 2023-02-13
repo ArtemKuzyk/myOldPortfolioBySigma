@@ -10,8 +10,12 @@ html {
   margin: 0%;
   width: 100%;
   padding: 0;
-  position: absolute;
   scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1400px;
+  margin: auto;
 }
 
 html.dark, .dark body header, .dark body section {
@@ -116,20 +120,8 @@ section.section-common-settings::after {
   html {
     font-size: 7px;
   }
-}
-@media screen and (min-width: 901px) {
-  html {
-    font-size: 12px;
-  }
-}
-@media screen and (min-width: 1201px) {
-  html {
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 1920px) {
-  html {
-    font-size: 16px;
+  p {
+    font-size: 1.75em;
   }
 }
 @media screen and (max-width: 600px) {

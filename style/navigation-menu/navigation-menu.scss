@@ -33,15 +33,18 @@ header{
 }
 
 .navigation-menu{
+    align-items: center;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    position: relative;
     .dark-light-icon{
         background-image: url(../dark.png);
         background-size: 100%;
-        width: 20px;
-        height: 20px;
         border-radius: 50%;
+        height: 20px;
+        position: absolute;
+        right: 5%;
+        width: 20px;
     }
     .navigation-menu__item{
         color: #f9edb9;
