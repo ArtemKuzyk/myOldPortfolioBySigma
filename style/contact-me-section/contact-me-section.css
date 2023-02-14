@@ -26,9 +26,6 @@
 .container form *::-moz-placeholder {
   color: #a9a9a9;
 }
-.container form *:-ms-input-placeholder {
-  color: #a9a9a9;
-}
 .container form *::placeholder {
   color: #a9a9a9;
 }
@@ -55,6 +52,7 @@
   box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: ease 2s;
+  margin: auto;
 }
 .container form button:hover {
   background-color: #C82425;
@@ -120,19 +118,6 @@
 }
 .contactMeAnimation {
   display: none;
-}
-
-@-webkit-keyframes contactMeAnimation {
-  0% {
-    display: block;
-    color: #ff0000;
-    font-size: 0rem;
-  }
-  100% {
-    display: block;
-    color: #fff;
-    font-size: 15rem;
-  }
 }
 
 @keyframes contactMeAnimation {

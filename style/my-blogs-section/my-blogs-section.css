@@ -7,10 +7,11 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .article {
+    align-items: center;
     flex-wrap: wrap !important;
-    justify-content: center !important;
+    flex-direction: column !important;
   }
   .article__image {
     width: 450px !important;
@@ -33,15 +34,17 @@
   flex-direction: row;
 }
 .article .article__image {
-  width: 570px;
-  height: 428px;
   background-color: #e3dfd7;
   border: 8px solid #fbfaf6;
   border-radius: 6px;
   box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+  flex-shrink: 1;
+  height: 428px;
+  width: 570px;
 }
 .article .article__content-block {
   margin-left: 15px;
+  flex-shrink: 1000;
 }
 .article .article__content-block .article__header {
   font-size: 3em;
@@ -72,6 +75,6 @@
 }
 .article .article__content-block .article__responses {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 10px;
+  top: 5px;
 }/*# sourceMappingURL=my-blogs-section.css.map */
